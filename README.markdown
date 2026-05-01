@@ -137,7 +137,4 @@ The project relies on the following Python packages (listed in `requirements.txt
 - **Performance**: Model training with GridSearchCV may be computationally intensive. Adjust the parameter grids or use fewer folds (`cv`) for faster execution.
 - **Synthetic Data**: Generated using realistic ranges and the best model's predictions for labels, ensuring meaningful evaluation.
 - **Scalability**: The script uses a consistent feature set and scaling for fair model comparison. Additional features (e.g., text from `Ad Topic Line`) can be added for enhanced predictions.
-- **Error Handling**: Includes basic error handling for missing dataset files.
-
-
-Happy predicting! 📊🚀
+- **
